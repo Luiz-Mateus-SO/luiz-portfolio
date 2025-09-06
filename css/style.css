@@ -1,0 +1,25 @@
+/* Import */
+@import './header.css';
+@import './global.css';
+@import './introducao.css';
+@import './experiencia.css';
+@import './formacao.css';
+@import './footer.css';
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/assets/fonts/FiraSans-Bold.woff") format("woff"),
+       url("/assets/fonts/FiraSans-Bold.woff2") format("woff2");
+       font-weight: 400; /* normal */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("/assets/fonts/FiraSans-Bold.woff") format("woff"),
+       url("/assets/fonts/FiraSans-Bold.woff2") format("woff2");
+       font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
